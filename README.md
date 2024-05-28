@@ -4,10 +4,10 @@
 
 ### To run this project 
 
-### Step 1
+### Step 1:
 Open the Catch a Glimpse.ipynb on Google collab
 
-### Step2
+### Step 2:
 Run all the cells in the  0. Setup Paths.
 
 In 1. Download TF Models Pretrained Models from Tensorflow Model Zoo and Install TFOD sections
@@ -16,22 +16,20 @@ run all cells till the cell with the following code:
    ```sh
    !pip uninstall protobuf matplotlib -y
    !pip install protobuf==3.20.3 matplotlib==3.7.1
-   
    ```
 after running the above given piece of code COLLAB will prompt you to restart the session
 so restart the session
 
-### Step3
+### Step 3:
 After restarting the session you have to run all the cells from start again till this cell
    ```sh
    !pip uninstall protobuf matplotlib -y
    !pip install protobuf==3.20.3 matplotlib==3.7.1
-   
    ```
 
 Note: you don't have to run this cell this time
 
-### Step4:
+### Step 4:
 Before running verification scripts cell go to: 
    ```sh
   Tensorflow/models/research/object_detection/packages/tf2/setup.py
@@ -45,7 +43,7 @@ Comment out keras and limit the versions of tf-models-official to
 ```
 this procedure solves the error of  "AttributeError: module 'keras._tf_keras.keras.layers' has no attribute 'experimental'".
 
-### Step5
+### Step 5:
 
 1.Go to:
    ```sh
@@ -66,7 +64,7 @@ create a folder "test" inside images and upload all the contents of "test images
    ```
 Upload all the contents of the "checkpoints and config files" folder given on the Catch a Glimpse repository.
 
-### Step5:
+### Step 6:
 Now run the verification scripts cell and you can go ahead and run all other cells.
 
 Note: If you ever stuck anywhere just restart the session and you are good to go.
