@@ -69,3 +69,7 @@ Now run the verification scripts cell and you can go ahead and run all other cel
 
 Note: If you ever stuck anywhere just restart the session and you are good to go.
  
+Note: This ipynb file works totally fine on Collab as I have already given a finetuned model with ckpt-11 checkpoint but if you want to train your own model follow the above given steps and also add train images folder with desired content in the directory images
+ ```sh
+  Tensorflow/workspace/images
+   ```
