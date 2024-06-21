@@ -1,6 +1,6 @@
 # Catch-a-Glimpse
 
-
+## An Automatic Numberplate Recognition System that uses OpenCV to detect number plate and EasyOCR to filter-out the text and store the results in database.
 
 ### To run this project 
 
